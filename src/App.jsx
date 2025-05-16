@@ -8,8 +8,7 @@ function App() {
     <>
       <Greeting name="Ahmed"surname="Ali"/>
       <Header />
-      <Header />
-      <Header />
+    
 
     </>
   );
