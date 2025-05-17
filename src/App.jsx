@@ -2,13 +2,16 @@
 import './App.css';
 import Greeting from './components/Greeting';
 import Header from './components/header';
+import Counter from './components/counter';
+
 
 function App() {
   return (
     <>
-      <Greeting name="Ahmed"surname="Ali"/>
       <Header />
-    
+      <Greeting name="Ahmed" surname="Ali"/>
+      
+      <Counter/>
 
     </>
   );
